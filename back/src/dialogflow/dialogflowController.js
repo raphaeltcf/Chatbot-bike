@@ -13,7 +13,7 @@ module.exports = {
 					const item = agent.contexts[0].parameters.item;
 					const quantity = agent.contexts[0].parameters.quantity;
 
-                    agent.add(`Tu queres: ${quantity} ${item}? Confirma, paizão? Ficou cerca de R$ 200,00`);
+                    agent.add(`Tu queres: \n${quantity} ${item}? Confirma, paizão? Ficou cerca de R$ 200,00`);
 					break;
 
 				default:

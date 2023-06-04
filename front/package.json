@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "react-native-dialogflow": "^3.2.2",
-    "react-native-gifted-chat": "^2.1.0"
-  }
-}
