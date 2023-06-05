@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>ChatBot</title>
 </head>
 <body>
@@ -17,8 +18,9 @@
         "appId": APP_ID,
         "automaticChatOpenOnNavigation": true,
         "popupWidget": true,
+        "restartConversationByUser": true,
         "preLeadCollection": [{
-            "field": "Nome", // Name of the field you want to add
+            "field": "Name", // Name of the field you want to add
             "required": true, // Set 'true' to make it a mandatory field
             "placeholder": "Informe seu nome" // add whatever text you want to show in the placeholder
         },
@@ -29,7 +31,7 @@
             "placeholder": "Informe seu email"
         },
         {
-            "field": "Telefone",
+            "field": "Phone",
             "type": "number",
             "required": true,
             "element": "input", // Optional field (Possible values: textarea or input) 
@@ -38,9 +40,9 @@
      
     ],
  
-        // onInit: function (e){
+        onInit: function (e){
           
-        // },
+        },
 
        
 

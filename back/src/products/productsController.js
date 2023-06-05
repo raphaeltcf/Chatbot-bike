@@ -3,6 +3,15 @@ const mongoose = require('mongoose');
 const Products = mongoose.model('products');
 
 module.exports = {
+	async indexByName(find) {
+		Products.find({name: { $regex: find, $options: 'i' }})
+			.then((data) => {
+				return data;
+			})
+			.catch((err) => {
+				console.log(err);
+			});
+	},
 	async indexAll(req, res) {
 		Products.find({})
 			.then((data) => {

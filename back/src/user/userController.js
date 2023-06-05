@@ -40,21 +40,21 @@ module.exports = {
 						config
 					);
 					const userDetails = response.data.response[0];
-
-					const user = new User({
-						name: userDetails.userName,
-						email: req.body.from,
-						phone: userDetails.phoneNumber,
-					});
-					user
-						.save()
-						.then((data) => {
-							console.log(data);
-							res.status(201).send(data);
-						})
-						.catch((err) => {
-							console.log(err);
+					console.log(userDetails)
+						const user = new User({
+							name: userDetails.userName,
+							email: req.body.from,
+							phone: userDetails.phoneNumber,
 						});
+						user
+							.save()
+							.then((data) => {
+								console.log(data);
+								res.status(201).send(data);
+							})
+							.catch((err) => {
+								console.log(err);
+							});
 				} catch (error) {
 					console.error(
 						'Ocorreu um erro ao obter os detalhes do usuário:',
