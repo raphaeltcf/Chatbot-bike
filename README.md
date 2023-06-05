@@ -71,6 +71,8 @@ $ npm start
 
 ## Como ele é
 ![img](https://i.ibb.co/N7xD8LY/Chat1.png)
+![img](https://i.ibb.co/rcXtCKm/chat-2.png)
+![img](https://i.ibb.co/wKw1zw4/chat-3.png)
 
 ### ✅ Features
 
