@@ -22,7 +22,7 @@ var products = []
 module.exports = {
 	getResponse(req, res) {
 		const agent = new WebhookClient({ request: req, response: res });
-		
+	
 
 		console.log(agent.contexts[0].parameters);
 
@@ -31,7 +31,7 @@ module.exports = {
 			console.log(intent);
 			switch (intent) {
 				case 'Escolha':
-
+					
 					const item = agent.contexts[0].parameters.item;
 					const quantity = agent.contexts[0].parameters.quantity;
 
@@ -60,15 +60,23 @@ module.exports = {
 					}
 					break;
 				case 'Verifica cep - yes':
-					console.log(products[0].item)
-					// const items = products[0].item;
-					// for (let i = 0; i < items.length; i++) {
-					// 	console.log(items[i].name)
-					// 	// const product = await productsController.indexByName(items[i].name)
-					// 	// console.log(product)
-					// }
-
-					agent.add("teste");
+					
+					if (products[0]) {
+						let price = 0
+						const prods = products[0].item;
+						for (let i = 0; i < prods.length; i++) {
+							const data = await productsController.indexByName(prods[i])
+							if (data && data.length > 0) {
+								price += data[0].price
+							} 
+						}
+						agent.add(`O valor total da compra foi de: \nR$ ${price+30}`);
+						agent.add(`Qual será a forma de pagamento? Pix ou Boleto?`);
+					}else{
+						agent.add("Não encontrei sua lista de produtos. Tente novamente");
+					}
+					
+				
 					break; 
 				default:
 					agent.add('Desculpe, não entendi!');

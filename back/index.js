@@ -32,4 +32,4 @@ app.use((req, res) => {
 	res.status(404).send();
 });
 
-app.listen(8080, () => console.log('on: ' + 8080));
+app.listen(config.port, () => console.log('on: ' + config.port));
