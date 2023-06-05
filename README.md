@@ -5,7 +5,7 @@ Esse software foi produzido para ser um chatbot onde você consegue fazer login,
 
 ## Teste 
 
-Você pode testar clianco aqui no [Chatbot](https://chatbot-bike.vercel.app/).
+Você pode testar clianco aqui no [Chatbot](https://chatbot-secreto.vercel.app/).
 
 ## 🚀 Começo
 
