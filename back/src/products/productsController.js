@@ -32,7 +32,6 @@ module.exports = {
 		product
 			.save()
 			.then((data) => {
-				console.log(data);
 				res.send(data);
 			})
 			.catch((err) => {
@@ -43,7 +42,6 @@ module.exports = {
 	async update(req, res) {
 		Products.findOneAndUpdate({ _id: req.params.id }, update)
 			.then((data) => {
-				console.log(data);
 				res.send(data);
 			})
 			.catch((err) => {
@@ -53,7 +51,6 @@ module.exports = {
 	async deleteById(req, res) {
 		Products.findOneAndDelete({ _id: req.params.id })
 			.then((data) => {
-				console.log(data);
 				res.send(data);
 			})
 			.catch((err) => {

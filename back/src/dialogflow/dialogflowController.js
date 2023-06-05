@@ -9,9 +9,9 @@ async function verificarCEP(cep) {
 		const endereco = response.data;
 
 		if (endereco.erro) {
-			return false
+			return false;
 		} else {
-			return endereco
+			return endereco;
 		}
 	} catch (error) {
 		console.error('Erro ao verificar CEP:', error.message);
@@ -22,13 +22,9 @@ var products = []
 module.exports = {
 	getResponse(req, res) {
 		const agent = new WebhookClient({ request: req, response: res });
-	
-
-		console.log(agent.contexts[0].parameters);
 
 		async function handleIntent(agent) {
 			const intent = agent.intent;
-			console.log(intent);
 			switch (intent) {
 				case 'Escolha':
 					
@@ -61,7 +57,7 @@ module.exports = {
 					break;
 				case 'Verifica cep - yes':
 					
-					if (products[0]) {
+					if (products.length > 0) {
 						let price = 0
 						const prods = products[0].item;
 						for (let i = 0; i < prods.length; i++) {

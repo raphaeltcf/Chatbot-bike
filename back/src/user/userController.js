@@ -40,7 +40,6 @@ module.exports = {
 						config
 					);
 					const userDetails = response.data.response[0];
-					console.log(userDetails)
 						const user = new User({
 							name: userDetails.userName,
 							email: req.body.from,
@@ -49,7 +48,6 @@ module.exports = {
 						user
 							.save()
 							.then((data) => {
-								console.log(data);
 								res.status(201).send(data);
 							})
 							.catch((err) => {
@@ -73,7 +71,6 @@ module.exports = {
 			phone: req.body.phone,
 		})
 			.then((data) => {
-				console.log(data);
 				res.send(data);
 			})
 			.catch((err) => {
@@ -83,7 +80,6 @@ module.exports = {
 	async deleteById(req, res) {
 		User.findByIdAndRemove(req.params.id)
 			.then((data) => {
-				console.log(data);
 				res.send(data);
 			})
 			.catch((err) => {
