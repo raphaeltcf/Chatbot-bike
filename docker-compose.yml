@@ -1,0 +1,14 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./back
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    depends_on:
+      - mongo
+    container_name: client
+  mongo:
+    image: mongo
+    container_name: db
