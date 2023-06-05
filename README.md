@@ -46,6 +46,17 @@ Só abrir o arquivo index.html no seu browser
 # Run the app in the Browser
 ```
 
+### No Docker
+```bash
+# Acesse a pasta do projeto em terminal/cmd
+$ cd Chatbot-bike
+
+
+# Inicie o Docker 
+$ docker-compose up
+
+
+```
 ### No Linux
 
 ```bash
