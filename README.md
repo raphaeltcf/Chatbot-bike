@@ -70,7 +70,7 @@ $ npm start
 ```
 
 ## Como ele é
-![pasteboard](https://ibb.co/25qVDjK)
+![img](https://ibb.co/25qVDjK)
 
 ### ✅ Features
 
