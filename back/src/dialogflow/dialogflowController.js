@@ -25,6 +25,7 @@ module.exports = {
 
 		async function handleIntent(agent) {
 			const intent = agent.intent;
+			console.log(agent.contexts[0].parameters)
 			switch (intent) {
 				case 'Escolha':
 					
@@ -36,7 +37,7 @@ module.exports = {
 					let response = 'Seu pedido: ';
 
 					for (let i = 0; i < item.length; i++) {
-						response = response + `\n• ${quantity[i]} ${item[i]} `;
+						response = response + `\n• ${quantity[i]? quantity[i]: 1} ${item[i]} `;
 					}
 
 					agent.add(response);
@@ -60,10 +61,11 @@ module.exports = {
 					if (products.length > 0) {
 						let price = 0
 						const prods = products[0].item;
+						const qtn = products[0].quantity;
 						for (let i = 0; i < prods.length; i++) {
 							const data = await productsController.indexByName(prods[i])
 							if (data && data.length > 0) {
-								price += data[0].price
+								price += data[0].price * (qtn[i] ? qtn[i] : 1)
 							} 
 						}
 						agent.add(`O valor total da compra foi de: \nR$ ${price+30}`);
@@ -72,7 +74,6 @@ module.exports = {
 						agent.add("Não encontrei sua lista de produtos. Tente novamente");
 					}
 					
-				
 					break; 
 				default:
 					agent.add('Desculpe, não entendi!');
