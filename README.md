@@ -18,12 +18,14 @@ Tabelas de conteúdo
 
 *******
 <div id='experimente'/>  
+
 ## Experimente 
 
 Você pode Experimentar clianco aqui no [Chatbot](https://chatbot-secreto.vercel.app/).
 
 *******
 <div id='front'/>  
+
 ## Como ele é:
 ![img](https://i.ibb.co/N7xD8LY/Chat1.png)
 ![img](https://i.ibb.co/rcXtCKm/chat-2.png)
@@ -31,6 +33,7 @@ Você pode Experimentar clianco aqui no [Chatbot](https://chatbot-secreto.vercel
 
 *******
 <div id='prerequisitos'/>  
+
 ## 🚀 Começo
 
 Estas instruções permitirão que você obtenha uma cópia de trabalho do projeto em sua máquina local para fins de desenvolvimento e teste.
@@ -47,6 +50,7 @@ Também é bom ter um editor para trabalhar com o código como [VSCode](https://
 
 *******
 <div id='funcionando'/>  
+
 ### 🎲 Pondo o Chatbot para funcionar:
 
 ```bash
@@ -110,6 +114,7 @@ $ npm start
 
 *******
 <div id='features'/>  
+
 ### ✅ Features
 
 - [x] Integrado com o banco de dados MongoDB
@@ -123,6 +128,7 @@ $ npm start
  
 *******
 <div id='built'/>  
+
 ## 🛠️ Feito utilizando
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40" height="40" />  
