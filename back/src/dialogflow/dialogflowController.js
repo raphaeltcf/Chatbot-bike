@@ -31,7 +31,7 @@ module.exports = {
 					
 					const item = agent.contexts[0].parameters.item;
 					const quantity = agent.contexts[0].parameters.quantity;
-
+					products = []
 					products.push(agent.contexts[0].parameters)
 
 					let response = 'Seu pedido: ';

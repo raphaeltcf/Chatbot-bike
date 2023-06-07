@@ -7,31 +7,6 @@
         "automaticChatOpenOnNavigation": true,
         "popupWidget": true,
         "restartConversationByUser": true,
-        "preLeadCollection": [{
-            "field": "Name", // Name of the field you want to add
-            "required": true, // Set 'true' to make it a mandatory field
-            "placeholder": "Informe seu nome" // add whatever text you want to show in the placeholder
-        },
-        {
-            "field": "Email",
-            "type": "email",
-            "required": true,
-            "placeholder": "Informe seu email"
-        },
-        {
-            "field": "Phone",
-            "type": "number",
-            "required": true,
-            "element": "input", // Optional field (Possible values: textarea or input)
-            "placeholder": "Informe seu telefone"
-        }
-
-        ],
-        "preLeadMessage": "Antes de começar, precisamos de alguns detalhes para que possamos atendê-lo melhor."
-
-        // onInit: function (e){
-
-        // },
     };
 
     /*----------------- Kommunicate settings end ------------------*/
