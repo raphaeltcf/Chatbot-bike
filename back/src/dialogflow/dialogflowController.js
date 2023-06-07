@@ -53,7 +53,7 @@ module.exports = {
 						agent.add("Você confima este endereço?");
 
 					}else{
-						agent.add(`Não encontrei o seu endereço. Tente novamente`);
+						agent.add(`Não encontrei o seu endereço. Tente novamente utilizando apenas os numeros do seu CEP`);
 					}
 					break;
 				case 'Verifica cep - yes':
