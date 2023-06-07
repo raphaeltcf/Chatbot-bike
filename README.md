@@ -7,10 +7,30 @@ O NodeJS como o Back.
 
 Esse site foi produzido para ser um chatbot onde você consegue fazer login, cadastro e comprar bicicletas diretamente no chat. 
 
-## Teste 
+*******
+Tabelas de conteúdo 
+ 1. [Experimente](#experimente)
+ 2. [Como ele é](#front)
+ 2. [Pré requisitos](#prerequisitos)
+ 3. [Pondo o Chatbot para funcionar:](#funcionando)
+ 4. [Features](#features)
+ 5. [Feito Utilizando](#built)
 
-Você pode testar clianco aqui no [Chatbot](https://chatbot-secreto.vercel.app/).
+*******
+<div id='experimente'/>  
+## Experimente 
 
+Você pode Experimentar clianco aqui no [Chatbot](https://chatbot-secreto.vercel.app/).
+
+*******
+<div id='front'/>  
+## Como ele é:
+![img](https://i.ibb.co/N7xD8LY/Chat1.png)
+![img](https://i.ibb.co/rcXtCKm/chat-2.png)
+![img](https://i.ibb.co/wKw1zw4/chat-3.png)
+
+*******
+<div id='prerequisitos'/>  
 ## 🚀 Começo
 
 Estas instruções permitirão que você obtenha uma cópia de trabalho do projeto em sua máquina local para fins de desenvolvimento e teste.
@@ -25,6 +45,8 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
 
 Também é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
+*******
+<div id='funcionando'/>  
 ### 🎲 Pondo o Chatbot para funcionar:
 
 ```bash
@@ -86,11 +108,8 @@ $ npm start
 
 ```
 
-## Como ele é:
-![img](https://i.ibb.co/N7xD8LY/Chat1.png)
-![img](https://i.ibb.co/rcXtCKm/chat-2.png)
-![img](https://i.ibb.co/wKw1zw4/chat-3.png)
-
+*******
+<div id='features'/>  
 ### ✅ Features
 
 - [x] Integrado com o banco de dados MongoDB
@@ -102,9 +121,9 @@ $ npm start
 - [x] Integrado com Dialog e Kommunicate
 - [x] Executando em um contêiner Docker
  
-
-
-## 🛠️ built with
+*******
+<div id='built'/>  
+## 🛠️ Feito utilizando
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40" height="40" />  
           
