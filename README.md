@@ -98,8 +98,8 @@ $ npm start
 - [x] Login integrado no chatbot
 - [x] Cadastro integrado no chatbot
 - [x] Verificação de CEP
-- [x] Calculando preços
-- [x] Comunicação com Dialog e Kommunicate
+- [x] Calculando os preços
+- [x] Integrado com Dialog e Kommunicate
 - [x] Executando em um contêiner Docker
  
 
