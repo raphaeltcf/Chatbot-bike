@@ -1,4 +1,4 @@
-# Chatbot-Bike
+# 🤖 Chatbot-Bike
 
 Um Chatbot utilizando as ferramentas DialogFlow, Kommunicata, a biblioteca Nodejs e o MongoDB. 
 O DialogFlow é utilizado para fazer a compreensão da linguagem natural, para fazer o chatbot. 
@@ -19,14 +19,14 @@ Tabelas de conteúdo
 *******
 <div id='experimente'/>  
 
-## Experimente 
+## 👾 Experimente 
 
 Você pode Experimentar clianco aqui no [Chatbot](https://chatbot-secreto.vercel.app/).
 
 *******
 <div id='front'/>  
 
-## Como ele é:
+## 🖼 Como ele é:
 ![img](https://i.ibb.co/N7xD8LY/Chat1.png)
 ![img](https://i.ibb.co/rcXtCKm/chat-2.png)
 ![img](https://i.ibb.co/wKw1zw4/chat-3.png)
