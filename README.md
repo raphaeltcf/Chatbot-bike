@@ -1,7 +1,11 @@
 # Chatbot-Bike
 
-Um Chatbot utilizando as ferramentas DialogFlow, Kommunicate e a biblioteca Nodejs. 
-Esse software foi produzido para ser um chatbot onde você consegue fazer login, cadastro e comprar bicicletas diretamente no chat. 
+Um Chatbot utilizando as ferramentas DialogFlow, Kommunicata, a biblioteca Nodejs e o MongoDB. 
+O DialogFlow é utilizado para fazer a compreensão da linguagem natural, para fazer o chatbot. 
+O Kommunicate funciona como o front e o sistema de gerenciamento do Chatbot. 
+O NodeJS como o Back.
+
+Esse site foi produzido para ser um chatbot onde você consegue fazer login, cadastro e comprar bicicletas diretamente no chat. 
 
 ## Teste 
 
@@ -17,6 +21,8 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
 [Git](https://git-scm.com).
 [MongoDB](https://www.mongodb.com/).
 [NodeJS](https://nodejs.org/en).
+[Docker](https://www.docker.com/).
+
 Também é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ### 🎲 Pondo o Chatbot para funcionar:
