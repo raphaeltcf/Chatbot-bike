@@ -38,7 +38,7 @@ Você pode Experimentar clianco aqui no [Chatbot](https://chatbot-secreto.vercel
 
 Estas instruções permitirão que você obtenha uma cópia de trabalho do projeto em sua máquina local para fins de desenvolvimento e teste.
 
-### 📋 Pré requisitos
+### 📋 Pré-requisitos
 
 Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
 [Git](https://git-scm.com), 
@@ -51,7 +51,7 @@ Também é bom ter um editor para trabalhar com o código como [VSCode](https://
 *******
 <div id='funcionando'/>  
 
-### 🎲 Pondo o Chatbot para funcionar:
+### 🎲 Colocando o Chatbot para funcionar:
 
 ```bash
 # Clone o repositorio
