@@ -1,11 +1,38 @@
-# Chatbot-Bike
+# 🤖 Chatbot-Bike
 
-Um Chatbot utilizando as ferramentas DialogFlow, Kommunicate e a biblioteca Nodejs. 
-Esse software foi produzido para ser um chatbot onde você consegue fazer login, cadastro e comprar bicicletas diretamente no chat. 
+Um Chatbot utilizando as ferramentas DialogFlow, Kommunicata, a biblioteca Nodejs e o MongoDB. 
+O DialogFlow é utilizado para fazer a compreensão da linguagem natural, para fazer o chatbot. 
+O Kommunicate funciona como o front e o sistema de gerenciamento do Chatbot. 
+O NodeJS como o Back.
 
-## Teste 
+Esse site foi produzido para ser um chatbot onde você consegue fazer login, cadastro e comprar bicicletas diretamente no chat. 
 
-Você pode testar clianco aqui no [Chatbot](https://chatbot-secreto.vercel.app/).
+*******
+Tabelas de conteúdo 
+ 1. [Experimente](#experimente)
+ 2. [Como ele é](#front)
+ 2. [Pré requisitos](#prerequisitos)
+ 3. [Pondo o Chatbot para funcionar:](#funcionando)
+ 4. [Features](#features)
+ 5. [Feito Utilizando](#built)
+
+*******
+<div id='experimente'/>  
+
+## 👾 Experimente 
+
+Você pode Experimentar clianco aqui no [Chatbot](https://chatbot-secreto.vercel.app/).
+
+*******
+<div id='front'/>  
+
+## 🖼 Como ele é:
+![img](https://i.ibb.co/N7xD8LY/Chat1.png)
+![img](https://i.ibb.co/rcXtCKm/chat-2.png)
+![img](https://i.ibb.co/wKw1zw4/chat-3.png)
+
+*******
+<div id='prerequisitos'/>  
 
 ## 🚀 Começo
 
@@ -14,10 +41,15 @@ Estas instruções permitirão que você obtenha uma cópia de trabalho do proje
 ### 📋 Pré requisitos
 
 Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
-[Git](https://git-scm.com).
-[MongoDB](https://www.mongodb.com/).
-[NodeJS](https://nodejs.org/en).
+[Git](https://git-scm.com), 
+[MongoDB](https://www.mongodb.com/), 
+[NodeJS](https://nodejs.org/en) e
+[Docker](https://www.docker.com/).
+
 Também é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+*******
+<div id='funcionando'/>  
 
 ### 🎲 Pondo o Chatbot para funcionar:
 
@@ -80,10 +112,8 @@ $ npm start
 
 ```
 
-## Como ele é
-![img](https://i.ibb.co/N7xD8LY/Chat1.png)
-![img](https://i.ibb.co/rcXtCKm/chat-2.png)
-![img](https://i.ibb.co/wKw1zw4/chat-3.png)
+*******
+<div id='features'/>  
 
 ### ✅ Features
 
@@ -92,12 +122,14 @@ $ npm start
 - [x] Login integrado no chatbot
 - [x] Cadastro integrado no chatbot
 - [x] Verificação de CEP
-- [x] Calculando preços
-- [x] Comunicação com Dialog e Kommunicate
+- [x] Calculando os preços
+- [x] Integrado com Dialog e Kommunicate
 - [x] Executando em um contêiner Docker
  
+*******
+<div id='built'/>  
 
-
-## 🛠️ built with
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40" height="40" /> 
+## 🛠️ Feito utilizando
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40" height="40" />  
+          
