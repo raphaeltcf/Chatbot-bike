@@ -18,9 +18,9 @@ Estas instruções permitirão que você obtenha uma cópia de trabalho do proje
 ### 📋 Pré requisitos
 
 Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
-[Git](https://git-scm.com).
-[MongoDB](https://www.mongodb.com/).
-[NodeJS](https://nodejs.org/en).
+[Git](https://git-scm.com), 
+[MongoDB](https://www.mongodb.com/), 
+[NodeJS](https://nodejs.org/en) e
 [Docker](https://www.docker.com/).
 
 Também é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
